@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#D9D8D0;
+	font-size:1em; /* igual a 16px */
+	font-family: "copperplate", Fantasy;
+}
+#menu{
+	background:#262522;
+	text-align:center;
+	color:#BFBFB8;
+	padding:20px;
+}
+#logo{
+	padding:10px;
+}
+#area-menu{
+	padding:10px;
+}
+#area-menu a:link{
+	text-decoration:none;
+	padding:10px 10px;
+	color:#BFBFB8;
+}
+#area-menu a:visited{
+	text-decoration:none;
+	color:#BFBFB8;
+}
+#area-menu a:hover{
+	text-decoration:none;
+	background:#BFBFB8;
+	color:#262522;
+	border-radius:5px;
+}
+#conteudo{
+	width:920px;
+	margin: 0 auto;
+	padding:10px;
+
+}
+#conteudo-galeria{
+	margin:auto;
+	width:690px;
+	background:#262522;
+	float:right;
+	margin-bottom:10px;
+
+}
+#titulo-galeria{
+	padding:10px;
+	color:#BFBFB8;
+	text-align:center;
+}
+.galeria{
+	padding:5px;
+	float:left;
+	background:#BFBFB8;
+	width:180px;
+	margin:20px;
+	text-align:center;
+}
+.clear{
+	clear:both;
+	padding:10px;
+	text-align:center;
+	color:#BFBFB8;
+}
+div[class="galeria"] a:link, div[class="galeria"] a:visited{
+    font-size:0.8em;
+    text-decoration:none;
+    color:#0D0C0B;
+}
+div[class="galeria"] a:hover{
+	text-decoration:underline;
+}
+/* FIM DO CONTEÚDO */
+
+#lateral-galeria{
+	width:200px;
+	float:left;
+	background:#73726E;
+	margin-bottom:0px;
+}
+.texto-lateral{
+	font-size: 0.8em;
+	padding:5px;
+	text-align:center;
+}
+#lateral-galeria h2{
+	text-align:center;
+	background:#262522;
+	padding:3px;
+	color:#D9D8D0;
+}
+div[class="texto-lateral"] a:link, div[class="texto-lateral"] a:visited{
+    font-size:1.2em;
+    text-decoration:none;
+    color:#0D0C0B;
+    text-align:center;
+}
+ div[class="texto-lateral"] a:hover{
+	text-decoration:underline;
+}
+#rodape{
+	text-align:center;
+	background:#73726E;
+	clear:both;
+	padding:5px;
+	color:#BFBFB8;
+}
